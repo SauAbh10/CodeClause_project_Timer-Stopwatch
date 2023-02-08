@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 27, 27);
+}
+#timers{
+    width:600px;
+      text-align: center;
+      font-size: 75px;
+    top:300px;
+margin-left: 400px;
+    display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow:  0 10px 30px black;
+        border:none;
+        background-color:blue;
+        color: white;
+    }
+
+    h1{
+    top:350px;
+        text-align: center;
+        font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps; 
+  color: aliceblue;  
+    }
+    
+    .digit{
+        font-size: 100px;
+        color:whitesmoke;
+    }
+    .text{
+        font-size: 20px;
+        color:whitesmoke;
+    }
+
+    .btn{
+        width: 100px;
+        padding: 10px;
+        margin: 0px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: x-large;
+        cursor: pointer;
+    }
+    #start{
+        color:rgb(37, 29, 29);
+        background-color:lightgreen;
+    }
+    #start:hover{
+        background-color: green;
+    }
+    #stop{
+        color:rgb(37, 29, 29);
+        background-color:lightcoral;
+    }
+    #stop:hover{
+        background-color: red;
+    }
+    #reset{      
+        color:rgb(37, 29, 29);
+        background-color:khaki;
+    }
+    #reset:hover{
+        background-color: yellow;
+    }
+
+    .container{
+        width: 700px;
+        height: 250px;
+        text-align: center;
+                  border-radius: 5px;
+          box-shadow:  0 10px 30px black;
+          border:none;
+          background-color:blue;
+margin-left: 350px;
+    }
